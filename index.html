@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Plugin navigation version 1.0.1</title>
+	<link rel="stylesheet" href="css/jquery.navigation.css">
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="wrap-navigation">
+			<div class="top-shadow"></div>
+			<div class="wrap">
+				<div class="nav-header">
+					<ul class="navigation list-unstyled">
+						<li>
+							<a href="#part1" class="text-uppercase default">
+								Part 1
+							</a>
+						</li>
+						<li>
+							<a href="#part2" class="text-uppercase default">
+								Part 2
+							</a>
+						</li>
+						<li>
+							<a href="#part3" class="text-uppercase default">
+								Part 3
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="nav-body">
+					<div class="hide" id="part1">
+						<h3 class="text-center">
+							Part 1
+						</h3>
+					</div>
+					<div class="hide" id="part2">
+						<h3 class="text-center">
+							Part 2
+						</h3>
+					</div>
+					<div class="hide" id="part3">
+						<h3 class="text-center">
+							Part 3
+						</h3>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="js/jquery.navigation-1.0.1.js"></script>
+	<script>
+		$('ul.navigation').navigate();
+	</script>
+</body>
+</html>

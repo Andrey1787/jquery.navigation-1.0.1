@@ -10,7 +10,8 @@
 	],
 	"author" : {
 		"name" : "Andrey Gorbunov",
-		"email" : "andrey1987.gorbunov@yandex.ru"
+		"email" : "andrey1987.gorbunov@yandex.ru",
+		"url" : "https://andrey1787.github.io/jquery.navigation-1.0.1/"
 	},
 	"licenses" : [
 		{
@@ -18,6 +19,7 @@
 			"url" : "https://github.com/Andrey1787/jquery.navigation-1.0.0/blob/master/LICENSE"
 		}
 	],
+	"homepage" : "https://andrey1787.github.io/jquery.navigation-1.0.1/",
 	"download" : "https://github.com/Andrey1787/jquery.navigation-1.0.1/archive/master.zip",
 	"dependencies" : {
 		"jquery" : ">=1.7"	

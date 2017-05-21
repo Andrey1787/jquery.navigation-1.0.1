@@ -96,13 +96,7 @@ This plugin allows you to display a beautiful sliding menu with content on the c
     </script>
 </body>
 ```
-> That it will look like the menu in the beginning:
-
-![First Screen](http://savepic.ru/14011754.png)
-
-> After clicking on one of the menu items, content, seamlessly opens to the right, reaching the end goes down, but only on the first pressing.Beca just the content inside changes without reloading the page.See screenshot:
-
-![Second Screen](http://savepic.ru/14014826.png)
+[Demo](https://andrey1787.github.io/jquery.navigation-1.0.1/)
 
 # Documentation
 ## Configurations

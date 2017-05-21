@@ -182,6 +182,13 @@
 		target.removeClass('hide').addClass('show');
 	};
 
+	Navigate.prototype.resize = function(){
+		this.fullWidth();
+		this.setWrapperWidth();
+		this.setContentWidth();
+		$(this.container).outerWidth(this.screen);
+	};
+
 	var Plugin = function(options){
 		return this.each(function(){
 			var $this = $(this),
@@ -219,7 +226,9 @@
 	};
 
 	var resizeHandler = function(e){
-		console.log('RESIZE');
+		var data = $('ul.navigation').data('ag.navigation');
+		data.action = 'resize';
+		Plugin.call($('ul.navigation'));
 	};
 
 	$(document).on('open', 'ul.navigation', clickHandler);
